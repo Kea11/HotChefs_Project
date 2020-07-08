@@ -1,0 +1,114 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* general classes */
+h1 {
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+}
+
+button {
+    width: auto;
+    border-radius: 20px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+
+.fancynavbar {
+    position: fixed;
+    top: 0;
+    /* z-index: 1000; */
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fancynavbar-toggler {
+    cursor: pointer;
+    width: 40em;
+    opacity: 1;
+}
+
+.fancynavbar-togglerbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.fancynavbar-toggler-icon path {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+}
+
+.fancynavbar-collapse{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    position: absolute;
+    text-align: left;
+    padding: 0;
+    /* z-index: -1; */
+    backdrop-filter: blur(20px);
+    background-color: #000;
+    opacity: 0.92;
+    width: 100%;
+}
+
+.fancynavbar-brand-img {
+    opacity: 0;
+}
+
+
+
+
+
+.owl-carousel.h-100.owl-item {
+    height: 100%;
+}
+
+.owl-carousel.owl-drag.owl-item {
+    touch-action: pan-y;
+    user-select: none;
+}
+
+.d-block {
+    opacity: 0.67;
+}
